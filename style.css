@@ -54,3 +54,32 @@ h3 {
     border-radius: 5px;
     color: yellowgreen;
 }
+
+nav {
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 gray;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: gold;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}

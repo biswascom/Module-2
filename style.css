@@ -1,0 +1,56 @@
+.header-img {
+    background-image: url("images/scenery/green.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    box-shadow: 0 20px 20px gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.beauti {
+    color: green;
+}
+
+.header h1 {
+    color: tomato;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    margin-top: 70px;
+    margin: 80px auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h3{
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    padding: 20px;
+}
+
+h3 {
+    background-color: aquamarine;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: yellowgreen;
+}

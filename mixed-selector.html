@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .green{
+            color: green;
+        }
+        h1.green{
+            text-align: center;
+        }
+        h2,li{
+            color: gold;
+            text-align: center;
+        }
+        .bc{
+            background-color: yellow;
+        }
+        .bc h1{
+            color: red;
+            text-align: center;
+        }
+        .green .dark{
+            color: black;
+        }
+        .fit{
+            background-color: lightblue;
+            width: fit-content;
+            padding: 10px 50px;
+            border-radius: 20px;
+            margin: 10px auto;
+            position: absolute;
+            top: 30px;
+            left: -50%;
+            right: -50%;
+            box-shadow: 10px 10px 10px darkgreen;
+        }
+        .header{
+            height: 50vh;
+            background-image: url("images/scenery/green.jpg");
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            box-shadow: 10px 10px 10px gray;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="fit">Prime Minister</h1>
+    </header>
+    <h1 class="green">This is Bangladesh</h1>
+    <h2>This is web course for junior developer</h2>
+    <p class="green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio error reiciendis, reprehenderit unde alias, quidem pariatur exercitationem quod nam facere magni quas similique iste accusamus obcaecati expedita accusantium! Laboriosam, eos!</p>
+
+    <div class="green bc">
+        <h1>Lorem <span class="dark">ipsum dolor</span> sit.</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae commodi voluptatum similique adipisci, eos rem ad debitis sint corporis ratione molestiae tempore vel distinctio placeat enim quod repellat eaque. Iusto.</p>
+    </div>
+    <p class="green">Some text below</p>
+    <ol>
+        <li>Bangladesh</li>
+        <li>Pakistan</li>
+        <li>India</li>
+        <li>Nepal</li>
+        <li>Bhutan</li>
+    </ol>
+</body>
+</html>
